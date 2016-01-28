@@ -30,3 +30,5 @@ public class Objektorienteeritus {
         System.out.println("Laeva nimi on " + raidur.misNimi());
     }
 }
+
+
