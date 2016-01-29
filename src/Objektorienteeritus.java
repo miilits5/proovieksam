@@ -12,6 +12,8 @@ public class Objektorienteeritus {
     public static void main(String[] args) {
 
         String laevaNimi = "Laineraidur";
+
+
         Laev raidur = new Laev(laevaNimi);
 
         raidur.lisaReisija("Teet Kalluste");
@@ -25,9 +27,12 @@ public class Objektorienteeritus {
 
         raidur.kalaHammustasKummipaatiAugu(); // Paanika!! mis nüüd saab?
 
+
         System.out.println("Pardal on järgmised isikud: " + raidur.votaReisijad());
         System.out.println("Pardal on nii mitu inimest: " + raidur.reisijateArv());
         System.out.println("Laeva nimi on " + raidur.misNimi());
+
+
     }
 }
 
